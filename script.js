@@ -60,3 +60,43 @@ function filterItems(e) {
     }
   });
 }
+
+
+
+
+
+
+//GetElementById()
+// const title = document.getElementById("main-heading");
+// console.log(title);
+
+//GetElementByClassName()
+// const listItems = document.getElementsByClassName("list-items");
+// console.log(listItems);
+
+//GetElementByTagName
+// const listItems = document.getElementsByTagName("li");
+// console.log(listItems);
+
+//querySelector
+// const container = document.querySelector("div");
+// console.log(container);
+
+//If you have multiple items with same class name, id or tag It selects the first item that matches the selector that comes across
+
+//querySelectorAll
+// const container = document.querySelectorAll("div");
+// console.log(container); //for 2 div containers in index.html
+
+//Styling an Element
+//const title = document.querySelector("#main-heading");
+//title.style.color = "red"; //Inline styling works on one element
+//console.log(title);
+
+//Styling a list of Elements
+// const listItems = document.querySelectorAll(".list-items");
+
+// for (i = 0; i < listItems.length; i++) {
+//   listItems[i].style.fontSize = "2rem";
+// }
+// console.log(listItems);
