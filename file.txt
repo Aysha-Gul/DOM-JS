@@ -1,4 +1,4 @@
-Document Object Manipulation --- DOM
+Document Object Model --- DOM
 
-DOM Object itself is the property of the window object which is the global top level object representing a tab in the browser and this window has an access to toolbars the height and widhth
-of the window prompts and even alerts.
+Document object is a in-built object that has many properties and methods that we can use to manipulate the structure, content and style of a project. DOM Object itself is the property of the window object which is the global top level object representing a tab in the browser and this window has an access to toolbars the height and widhth of the window prompts and even alerts. The top most node is the document or root node of the dom tree which we use access and manipulate the content. This document node has one child node which is the html element is the parent node to the head and body element and they are called sibling nodes as they are on the same level in the dom tree. Underneath the head element which has one child node that is title element. The body element has child nodes of paragraph, heading and many more elements. The html attributes such as id or classes in this class styles etc are also considered nodes in a dom heirarchy but they don't participate in the parent-child sibling relationship.
+
