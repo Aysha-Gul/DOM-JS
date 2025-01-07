@@ -1,0 +1,4 @@
+Document Object Manipulation --- DOM
+
+DOM Object itself is the property of the window object which is the global top level object representing a tab in the browser and this window has an access to toolbars the height and widhth
+of the window prompts and even alerts.
